@@ -4,7 +4,7 @@ Make your terminal failures hilarious. **WrongCMD** is a fun, lightweight VS Cod
 
 Whether you want to be roasted by classic memes or use your own custom buzzer, this extension brings a little joy to the frustrating moments of debugging.
 
-## ✨ Features (Version 1.2.28.22)
+## ✨ Features (Version 1.2.29)
 
 - **Built-in Meme Sounds:** Comes fully loaded with classic audio clips right out of the box:
   - _Fahhh_

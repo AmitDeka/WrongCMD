@@ -2,7 +2,7 @@
   "name": "wrongcmd",
   "displayName": "WrongCMD",
   "description": "Plays a sound when an invalid command is typed in the terminal.",
-  "version": "1.2.28.22",
+  "version": "1.2.29",
   "publisher": "codebloc-studio",
   "engines": {
     "vscode": "^1.93.0"

@@ -2,7 +2,7 @@
 
 All notable changes to the "WrongCMD" extension will be documented in this file.
 
-## [1.2.28.22] - 2026-02-28
+## [1.2.29] - 2026-02-28
 
 ### Added
 
