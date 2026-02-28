@@ -1,0 +1,50 @@
+{
+  "name": "wrongcmd",
+  "displayName": "WrongCMD",
+  "description": "Plays a sound when an invalid command is typed in the terminal.",
+  "version": "1.0.0",
+  "publisher": "codebloc-studio",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "configuration": {
+      "title": "WrongCMD Settings",
+      "properties": {
+        "wrongcmd.errorKeywords": {
+          "type": "array",
+          "default": [
+            "command not found",
+            "is not recognized",
+            "not found",
+            "does not exist",
+            "cannot find path"
+          ],
+          "description": "Terminal phrases that trigger the sound. Add custom ones for your specific shell."
+        },
+        "wrongcmd.soundChoice": {
+          "type": "string",
+          "enum": [
+            "Fahhh",
+            "Abe Sale",
+            "Baigan",
+            "Anime Ahh",
+            "CID Sound",
+            "Custom"
+          ],
+          "default": "Fahhh",
+          "description": "Select the built-in sound to play, or choose 'Custom' to use your own file."
+        },
+        "wrongcmd.customSoundPath": {
+          "type": "string",
+          "default": "",
+          "description": "Absolute path to a custom .wav file on your computer (Used only if 'Custom' is selected above)."
+        }
+      }
+    }
+  }
+}
