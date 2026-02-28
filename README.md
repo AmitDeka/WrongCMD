@@ -4,14 +4,13 @@ Make your terminal failures hilarious. **WrongCMD** is a fun, lightweight VS Cod
 
 Whether you want to be roasted by classic memes or use your own custom buzzer, this extension brings a little joy to the frustrating moments of debugging.
 
-## ✨ Features (Version 1.0.0)
+## ✨ Features (Version 1.2.28.22)
 
 - **Built-in Meme Sounds:** Comes fully loaded with classic audio clips right out of the box:
   - _Fahhh_
   - _Abe Sale_
   - _Baigan_
   - _Anime Ahh_
-  - _CID Sound_
 - **Custom Audio Support:** Don't like the defaults? Point the extension to any local `.wav` file on your computer to play your own custom sound.
 - **Smart Detection:** Uses VS Code's native Shell Integration API to detect when a command fails natively, without slowing down your editor.
 - **Customizable Triggers:** Configure exactly which terminal error phrases trigger the audio, making it compatible with Bash, Zsh, PowerShell, and CMD.
